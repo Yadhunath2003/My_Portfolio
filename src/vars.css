@@ -1,0 +1,13 @@
+/*Globalizing the colors, fonts, and animations of my portfolio in this file.*/
+
+:root{
+    /*Colors*/
+    --color-test: white;
+    --color-primary: lightblue;
+    --color-secondary: blue;
+    --color-dark: indigo;
+    --color-bg: darkblue;
+
+    /* Fonts */
+    --font-robot: "Roboto";
+}
