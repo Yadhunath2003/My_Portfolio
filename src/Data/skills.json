@@ -1,0 +1,30 @@
+[
+  {
+    "title": "django",
+    "imageSrc": "django.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "postgres.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "node.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "mysql.png"
+  },
+  {
+    "title": "Filemaker Pro",
+    "imageSrc": "filemaker.png"
+  },
+  {
+    "title": "Tableau",
+    "imageSrc": "tableu.png"
+  }
+]
