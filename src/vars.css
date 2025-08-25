@@ -3,11 +3,11 @@
 :root{
     /*Colors*/
     --color-text: white;
-    --color-primary: lightblue;
-    --color-secondary: blue;
-    --color-dark: indigo;
-    --color-bg: darkblue;
-    --color-btnText: black;
+    --color-primary: rgb(44, 170, 212);
+    --color-secondary: rgb(48, 48, 151);
+    --color-dark: rgb(58, 17, 87);
+    --color-bg: rgb(7, 7, 82);
+    --color-btnText: rgb(26, 24, 24);
 
     /* Fonts */
     --font-robot: "Roboto";
