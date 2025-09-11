@@ -9,8 +9,10 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Yadhunath</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          Computer Science major at the University of Kansas with a passion for 
+          building innovative and scalable solutions. My experience spans full-stack development, data engineering, 
+          and analytics, where I’ve worked on projects that combine backend systems, cloud platforms, and data pipelines 
+          to deliver real-world impact.
         </p>
         <a href="mailto:yadhunath2003@email.com" className={styles.contactBtn}>
           Contact Me
