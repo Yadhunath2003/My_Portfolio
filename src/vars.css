@@ -2,13 +2,17 @@
 
 :root{
     /*Colors*/
-    --color-text: white;
-    --color-primary: rgb(44, 170, 212);
-    --color-secondary: rgb(48, 48, 151);
-    --color-dark: rgb(58, 17, 87);
-    --color-bg: rgb(7, 7, 82);
-    --color-btnText: rgb(26, 24, 24);
+    --color-text: #f8fafc;         /* light */
+    --color-primary: #3b82f6;      /* blue-500 */
+    --color-secondary: #6366f1;    /* indigo-500 */
+    --color-bg: #0f172a;           /* dark (slate-900) */
+    --color-bg-darker: #020617;    /* darker */
+    --color-card: #1e293b;         /* card slate-800-ish */
+    --color-btnText: #0b1220;      /* used when button bg is light */
 
     /* Fonts */
-    --font-robot: "Roboto";
+    --font-inter: "Inter", system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+
+    /* Accents */
+  --gradient-primary: linear-gradient(90deg, #3b82f6, #6366f1);
 }
