@@ -17,7 +17,7 @@
   },
   {
     "title": "MySQL",
-    "imageSrc": "mysql.png"
+    "imageSrc": "mysql-logo-svgrepo-com.svg"
   },
   {
     "title": "Filemaker Pro",
@@ -32,7 +32,7 @@
   { "title": "Python",          "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { "title": "JavaScript",      "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { "title": "Docker",          "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-  { "title": "AWS",             "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
-  { "title": "Kali Linux",      "imageSrc": "kali.svg" },
+  { "title": "AWS",             "imageSrc": "aws-svgrepo-com.svg" },
+  { "title": "Kali Linux",      "imageSrc": "linux-svgrepo-com.svg" },
   { "title": "MongoDB",         "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" }
 ]
