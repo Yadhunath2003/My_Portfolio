@@ -1,64 +1,84 @@
 @import "../../vars.css";
 
+/* Section container (footer) */
 .container {
+  background: var(--color-bg);
   color: var(--color-text);
-  margin-top: 120px;
-  background-color: var(--color-secondary);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  padding: 80px 0 90px;
+  font-family: var(--font-inter);
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
+/* Heading + subtext */
+.text {
+  text-align: center;
+  margin-bottom: 28px;
+}
 .text h2 {
-  font-size: 80px;
-  font-weight: 700;
-  letter-spacing: 4px;
+  margin: 0 0 8px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 800;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 .text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
+  margin: 0;
+  color: #94a3b8; /* slate-400 */
 }
 
+/* Links list grid */
 .links {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0;
+}
+@media (min-width: 640px) {
+  .links { grid-template-columns: repeat(3, 1fr); }
 }
 
+/* Each link row as a small card */
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 10px;
+  padding: 14px 16px;
+
+  background: #111827;              /* dark tile */
+  border: 1px solid #1f2937;        /* slate-800 */
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0,0,0,.45);
 }
 
+.link img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* The anchor inside each li > a inherits */
 .link a {
-  color: var(--color-text);
+  color: #e5e7eb;                   /* gray-200 */
   text-decoration: none;
-  font-size: 25px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
+  font-weight: 700;
+  transition: color .2s ease, opacity .2s ease;
 }
-
-@media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
-  }
-
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .links {
-    align-items: center;
-  }
+.link a:hover {
+  color: var(--color-primary);
+  opacity: .95;
 }
