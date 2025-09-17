@@ -1,0 +1,39 @@
+[
+    {
+      "title": "Certified Information Systems Security Professional (CISSP)",
+      "issuer": "(ISC)²",
+      "description": "Demonstrates expertise in designing, implementing, and managing a best-in-class cybersecurity program.",
+      "issued": "May 2022",
+      "link": "#",
+      "accent": "Blue",
+      "icon": "shield"
+    },
+    {
+      "title": "AWS Certified Security – Specialty",
+      "issuer": "Amazon Web Services",
+      "description": "Validates expertise in securing AWS workloads and implementing security controls at scale.",
+      "issued": "Nov 2021",
+      "link": "#",
+      "accent": "Indigo",
+      "icon": "aws"
+    },
+    {
+      "title": "Certified Ethical Hacker (CEH)",
+      "issuer": "EC-Council",
+      "description": "Knowledge of ethical hacking phases, attack vectors, and preventive countermeasures.",
+      "issued": "Mar 2021",
+      "link": "#",
+      "accent": "Blue",
+      "icon": "user-secret"
+    },
+    {
+      "title": "CompTIA Security+",
+      "issuer": "CompTIA",
+      "description": "Baseline skills to perform core security functions and pursue an IT security career.",
+      "issued": "Sep 2020",
+      "link": "#",
+      "accent": "Green",
+      "icon": "lock"
+    }
+  ]
+  

@@ -1,0 +1,31 @@
+[
+    {
+      "title": "Best Security Research Paper",
+      "org": "International Conference on Cybersecurity 2022",
+      "description": "Awarded for research on “Advanced Persistent Threat Detection Using Machine Learning”.",
+      "accent": "Yellow",
+      "icon": "trophy"
+    },
+    {
+      "title": "CTF Competition Winner",
+      "org": "DEF CON 29 Capture The Flag",
+      "description": "Led team to 3rd place among 500+ teams in the world’s largest cybersecurity competition.",
+      "accent": "Blue",
+      "icon": "medal"
+    },
+    {
+      "title": "University Excellence Award",
+      "org": "Department of Computer Science",
+      "description": "Recognized for outstanding academic performance and contributions to cybersecurity research.",
+      "accent": "Green",
+      "icon": "award"
+    },
+    {
+      "title": "Bug Bounty Hall of Fame",
+      "org": "Multiple Organizations",
+      "description": "Recognized by top tech companies for identifying critical security vulnerabilities.",
+      "accent": "Purple",
+      "icon": "star"
+    }
+  ]
+  
