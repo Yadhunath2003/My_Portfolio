@@ -1,28 +1,38 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
+    "role": "Information Technology Technician",
+    "organisation": "University of Kansas",
+    "startDate": "May, 2024",
+    "endDate": "July, 2025",
+    "experiences": 
+    ["Documented workflows and built knowledge-sharing resources in TDX and ServiceNow to improve support consistency."
+    , "Troubleshot hardware and software issues across organizational and personal machines, closing tickets efficiently."
+    , "Provided secure, reliable support for Microsoft 365, KU services, and account access."
+    ],
+    "imageSrc": "KU.png"
+  },
+  {
+    "role": "Database Editor",
+    "organisation": "Physics & Astronomy Department | University of Kansas",
+    "startDate": "Jul, 2025",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": 
+    [
+    "Maintained and updated graduate program databases in FileMaker Pro to keep student records accurate and consistent.", 
+    "Developed scripts to automate course substitutions, grade tracking, and reporting, reducing manual workload.",
+    "Partnered with faculty and staff to implement data management improvements that streamlined workflows."
+    ],
     "imageSrc": "KU.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "KU.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Engineering Camp Assistant",
+    "organisation": "University of Kansas",
+    "startDate": "Jul, 2025 & Jul, 2024",
+    "endDate": "Jul, 2025 & Jul, 2024",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "A 2-week summer camp for middle school students to explore engineering concepts and careers.",
+      "Facilitated hands-on workshops (Arduino, Python, basic robotics), guiding campers through builds, debugging steps, and demos.",
+      "Represented KU Engineering at camp-wide events, sharing my college experience and answering questions."
     ],
     "imageSrc": "KU.png"
   }

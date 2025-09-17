@@ -34,5 +34,8 @@
   { "title": "Docker",          "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
   { "title": "AWS",             "imageSrc": "aws-svgrepo-com.svg" },
   { "title": "Kali Linux",      "imageSrc": "linux-svgrepo-com.svg" },
-  { "title": "MongoDB",         "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" }
+  { "title": "MongoDB",         "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+  { "title": "Airflow",      "imageSrc": "Apache_Airflow.svg" },
+  { "title": "Kafka",      "imageSrc": "kafka-svgrepo-com.svg" },
+  { "title": "Tableau",      "imageSrc": "tableau-icon-svgrepo-com.svg" }
 ]
