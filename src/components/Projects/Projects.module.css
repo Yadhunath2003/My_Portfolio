@@ -1,26 +1,61 @@
 @import "../../vars.css";
 
-.container {
-  margin-top: 76px;
+.section {
+  background: var(--color-bg);
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 80px 0;
+  font-family: var(--font-inter);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+  font-size: clamp(1.875rem, 3.5vw, 2.25rem); /* ~text-3xl md:text-4xl */
+  font-weight: 800;
+  margin: 0 0 12px;
 }
 
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+.gradientText {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.underline {
+  width: 80px;
+  height: 4px;
+  background: var(--color-primary);
+  margin: 0 auto 12px;
+  border-radius: 2px;
+}
+
+.subtitle {
+  max-width: 720px;
+  margin: 0 auto;
+  color: #94a3b8; /* slate-400 */
+  line-height: 1.7;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1280px) {
+  .grid { grid-template-columns: repeat(3, 1fr); }
 }
