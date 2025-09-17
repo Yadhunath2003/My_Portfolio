@@ -1,120 +1,167 @@
 @import "../../vars.css";
 
-.container {
+.section {
+  background: var(--color-bg-darker);
   color: var(--color-text);
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding: 80px 0;
+  font-family: var(--font-inter);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 64px;
 }
 
 .title {
-  color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+  font-size: clamp(1.875rem, 3.5vw, 2.25rem); /* ~text-3xl md:text-4xl */
+  font-weight: 800;
+  margin: 0 0 12px;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 14px;
+.gradientText {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
+.underline {
+  width: 80px;
+  height: 4px;
+  background: var(--color-primary);
+  margin: 0 auto;
+  border-radius: 2px;
 }
 
-.skill {
+/* Vertical stacking for sections */
+.block {
+  margin-bottom: 48px;
+}
+.block:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Subsection title */
+.subTitle {
+  font-size: clamp(1.25rem, 2.6vw, 1.5rem); /* ~text-2xl */
+  font-weight: 800;
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+/* === Tech Stack grid (same visual language as index.html) === */
+.skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+@media (min-width: 640px) {
+  .skillsGrid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (min-width: 1024px) {
+  .skillsGrid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.skillCard {
+  background: #111827;               /* dark tile */
+  border: 1px solid #1f2937;         /* slate-800-ish */
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.25);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 11px;
+  gap: 10px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.skillCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,.35);
 }
 
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
+.skillIcon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
 }
 
-.skillImageContainer img {
-  width: 75px;
+.skillLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+/* === Work History cards === */
+.historyList {
+  display: grid;
+  gap: 24px;
 }
 
-.history {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.historyItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 10px;
+.historyCard {
+  background: #111827;
+  border-radius: 14px;
   padding: 24px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.35);
+  border: 1px solid #1f2937;
 }
 
-.historyItem img {
-  width: 50px;
+.historyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 8px;
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
+.role {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 800;
 }
 
-.historyItemDetails h3 {
-  font-size: 27px;
-  font-weight: 500;
+.datePill {
+  background: rgba(59,130,246,0.15);
+  color: #93c5fd;          /* blue-300 */
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
 }
 
-.historyItemDetails p {
-  font-size: 18px;
-  font-weight: 300;
+.orgRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0 10px;
 }
 
-.historyItemDetails ul {
-  margin-top: 6px;
-  list-style-position: inside;
-  font-size: 15px;
-  list-style-type: disc;
-  margin-left: 17px;
+.orgLogo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
 }
 
-@media screen and (max-width: 830px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 34px;
-  }
+.orgName {
+  color: #94a3b8;          /* slate-400 */
+  font-weight: 600;
+}
 
-  .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-  }
+.bullets {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: #cbd5e1;          /* slate-300 */
+  line-height: 1.7;
+}
+.bullets li { list-style: disc; }
 
-  .history {
-    width: 100%;
-    gap: 9px;
-  }
+/* Small tweaks */
+@media (max-width: 600px) {
+  .datePill { font-size: 0.7rem; }
 }

@@ -26,5 +26,13 @@
   {
     "title": "R Programming",
     "imageSrc": "Ricon.png"
-  }
+  }, 
+
+  
+  { "title": "Python",          "imageSrc": "python.svg" },
+  { "title": "JavaScript",      "imageSrc": "javascript.svg" },
+  { "title": "Docker",          "imageSrc": "docker.svg" },
+  { "title": "AWS",             "imageSrc": "aws.svg" },
+  { "title": "Kali Linux",      "imageSrc": "kali.svg" },
+  { "title": "MongoDB",         "imageSrc": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" }
 ]
