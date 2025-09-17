@@ -5,6 +5,10 @@ import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 
+// near the top of the file
+const resolveImg = (path) =>
+  /^https?:\/\//i.test(path) ? path : getImageUrl(path);
+
 export const Experience = () => {
   return (
     <section className={styles.section} id="experience">
@@ -24,7 +28,7 @@ export const Experience = () => {
             {skills.map((skill, idx) => (
               <div key={idx} className={styles.skillCard}>
                 <img
-                  src={getImageUrl(skill.imageSrc)}
+                  src={resolveImg(skill.imageSrc)}
                   alt={skill.title}
                   className={styles.skillIcon}
                 />

@@ -70,7 +70,7 @@
 }
 
 .skillCard {
-  background: #111827;               /* dark tile */
+  background: var(--color-card);               /* dark tile */
   border: 1px solid #1f2937;         /* slate-800-ish */
   border-radius: 12px;
   padding: 16px;
@@ -87,8 +87,8 @@
 }
 
 .skillIcon {
-  width: 48px;
-  height: 48px;
+  width: 54px;
+  height: 54px;
   object-fit: contain;
 }
 
