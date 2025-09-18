@@ -2,8 +2,8 @@
   {
     "title": "HawkLoop | Capstone Project",
     "imageSrc": "project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Django", "PostgreSQL", "Expo.js"],
+    "description": "A user-friendly web and mobile application to help University of Kansas students track campus buses in real time, improving accessibility and reducing wait times.",
+    "skills": ["Django", "React", "PostgreSQL", "Expo.js"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
