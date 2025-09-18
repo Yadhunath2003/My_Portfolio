@@ -1,9 +1,9 @@
 [
     {
-      "title": "Certified Information Systems Security Professional (CISSP)",
-      "issuer": "(ISC)²",
-      "description": "Demonstrates expertise in designing, implementing, and managing a best-in-class cybersecurity program.",
-      "issued": "May 2022",
+      "title": "Google Analytics Professional Certification",
+      "issuer": "Google",
+      "description": "Showcases advanced proficiency in Data Analysis, including Data Cleaning, Preprocessing, SQL Query Optimization, and creating impactful Data Visualizations to derive actionable insights.",
+      "issued": "August 2025",
       "link": "#",
       "accent": "Blue",
       "icon": "shield"
@@ -18,22 +18,13 @@
       "icon": "aws"
     },
     {
-      "title": "Certified Ethical Hacker (CEH)",
-      "issuer": "EC-Council",
-      "description": "Knowledge of ethical hacking phases, attack vectors, and preventive countermeasures.",
-      "issued": "Mar 2021",
+      "title": "IBM SQL, ETL Processing, and Data Warehousing",
+      "issuer": "IBM",
+      "description": "Proficiency in SQL queries, ETL processes, and data warehousing concepts for effective data management and analysis.",
+      "issued": "Sept 2025",
       "link": "#",
       "accent": "Blue",
       "icon": "user-secret"
-    },
-    {
-      "title": "CompTIA Security+",
-      "issuer": "CompTIA",
-      "description": "Baseline skills to perform core security functions and pursue an IT security career.",
-      "issued": "Sep 2020",
-      "link": "#",
-      "accent": "Green",
-      "icon": "lock"
     }
   ]
   

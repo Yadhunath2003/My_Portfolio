@@ -1,17 +1,17 @@
 [
   {
-    "title": "Project A",
+    "title": "HawkLoop | Capstone Project",
     "imageSrc": "project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["React", "Django", "PostgreSQL", "Expo.js"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
+    "title": "Cyclistic Data Analysis | Google Data Analytics Professional Certificate",
     "imageSrc": "project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "description": "A Case Study of more than 1 million bike-share rides to improve membership and grow the business.",
+    "skills": ["R", "PostgreSQL", "Tableau"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
