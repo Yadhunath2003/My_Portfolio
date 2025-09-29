@@ -9,10 +9,10 @@
       "icon": "shield"
     },
     {
-      "title": "AWS Certified Security – Specialty",
+      "title": "AWS Certified Developer Associate",
       "issuer": "Amazon Web Services",
-      "description": "Validates expertise in securing AWS workloads and implementing security controls at scale.",
-      "issued": "Nov 2021",
+      "description": "Hands-on specialization in building, deploying, and scaling cloud applications on AWS with real-world projects and developer tools.",
+      "issued": "Oct 2025",
       "link": "#",
       "accent": "Indigo",
       "icon": "aws"
@@ -22,7 +22,7 @@
       "issuer": "IBM",
       "description": "Proficiency in SQL queries, ETL processes, and data warehousing concepts for effective data management and analysis.",
       "issued": "Sept 2025",
-      "link": "#",
+      "link": "assests/IBM_SQL_ETL.pdf",
       "accent": "Blue",
       "icon": "user-secret"
     }
