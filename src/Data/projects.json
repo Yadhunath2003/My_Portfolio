@@ -17,7 +17,7 @@
   },
   {
     "title": "Note-taking",
-    "imageSrc": "Notes-logo.jpeg",
+    "imageSrc": "Notes-Logo.jpeg",
     "description": "A personal web app for registering, organizing, and tracking daily priorities and important notes.",
     "skills": ["Django", "React", "NeonDB", "Choreo"],
     "demo": "https://www.example.com",
