@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Certification.module.css";
-import certs from "../../data/certifications.json";
-import awards from "../../data/awards.json";
+import certs from "../../Data/certifications.json";
+import awards from "../../Data/awards.json";
 
 const Icon = ({ name }) => {
   // tiny inline icon set (no external libs)
