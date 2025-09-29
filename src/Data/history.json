@@ -9,7 +9,7 @@
     , "Troubleshot hardware and software issues across organizational and personal machines, closing tickets efficiently."
     , "Provided secure, reliable support for Microsoft 365, KU services, and account access."
     ],
-    "imageSrc": "KU.png"
+    "imageSrc": "Ku-logo.svg"
   },
   {
     "role": "Database Editor",
@@ -22,7 +22,7 @@
     "Developed scripts to automate course substitutions, grade tracking, and reporting, reducing manual workload.",
     "Partnered with faculty and staff to implement data management improvements that streamlined workflows."
     ],
-    "imageSrc": "KU.png"
+    "imageSrc": "Ku-logo.svg"
   },
   {
     "role": "Engineering Camp Assistant",
@@ -34,6 +34,6 @@
       "Facilitated hands-on workshops (Arduino, Python, basic robotics), guiding campers through builds, debugging steps, and demos.",
       "Represented KU Engineering at camp-wide events, sharing my college experience and answering questions."
     ],
-    "imageSrc": "KU.png"
+    "imageSrc": "Ku-logo.svg"
   }
 ]
