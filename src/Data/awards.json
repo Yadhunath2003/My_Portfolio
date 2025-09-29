@@ -7,24 +7,17 @@
       "icon": "trophy"
     },
     {
-      "title": "CTF Competition Winner",
+      "title": "University Excellence Award",
       "org": "School of Engineering | University of Kansas",
       "description": "Awarded for achieving a GPA of 3.75 or higher in Spring 2025 semester.",
       "accent": "Blue",
-      "icon": "medal"
-    },
-    {
-      "title": "University Excellence Award",
-      "org": "Department of Computer Science",
-      "description": "Recognized for outstanding academic performance and contributions to cybersecurity research.",
-      "accent": "Green",
       "icon": "award"
     },
     {
-      "title": "Bug Bounty Hall of Fame",
-      "org": "Multiple Organizations",
-      "description": "Recognized by top tech companies for identifying critical security vulnerabilities.",
-      "accent": "Purple",
+      "title": "AMATY Mathematics Competition - 4th Place",
+      "org": "Johnson County Community College",
+      "description": "Won 4th place in AMATY Mathematics Competition among 100+ participants.",
+      "accent": "Green",
       "icon": "star"
     }
   ]
