@@ -22,7 +22,7 @@
       "issuer": "IBM",
       "description": "Proficiency in SQL queries, ETL processes, and data warehousing concepts for effective data management and analysis.",
       "issued": "Sept 2025",
-      "link": "assests/IBM_SQL_ETL.pdf",
+      "link": "assets/IBM_ETL.pdf",
       "accent": "Blue",
       "icon": "user-secret"
     }
