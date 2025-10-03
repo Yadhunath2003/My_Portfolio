@@ -4,7 +4,7 @@
       "issuer": "Google",
       "description": "Showcases advanced proficiency in Data Analysis, including Data Cleaning, Preprocessing, SQL Query Optimization, and creating impactful Data Visualizations to derive actionable insights.",
       "issued": "August 2025",
-      "link": "assets/Google_Analytics.pdf",
+      "link": "https://coursera.org/share/503f7a39c586140df3df8dbe22ee2679",
       "accent": "Red",
       "icon": "shield"
     },
@@ -22,7 +22,7 @@
       "issuer": "IBM",
       "description": "Proficiency in SQL queries, ETL processes, and data warehousing concepts for effective data management and analysis.",
       "issued": "Sept 2025",
-      "link": "assets/IBM_ETL.pdf",
+      "link": "https://coursera.org/share/4e3cec1a75b233850e718f9e1a1f8ad7",
       "accent": "Blue",
       "icon": "user-secret"
     }
