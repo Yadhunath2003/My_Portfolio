@@ -1,9 +1,21 @@
 [
   {
+    "role": "Graduate Teaching Assistant",
+    "organisation": "University of Kansas",
+    "startDate": "Jan, 2026",
+    "endDate": "Present",
+    "experiences": 
+    ["Assisted in teaching hands-on lab courses in Embedded Systems and C programming."
+    , "Guided students in implementing projects using Arduino, Raspberry Pi, and other embedded devices."
+    , "Fostered a collaborative learning environment to enhance student engagement and understanding."
+    ],
+    "imageSrc": "Ku-logo.svg"
+  },
+  {
     "role": "Information Technology Technician",
     "organisation": "University of Kansas",
     "startDate": "May, 2024",
-    "endDate": "July, 2025",
+    "endDate": "Jul, 2025",
     "experiences": 
     ["Documented workflows and built knowledge-sharing resources in TDX and ServiceNow to improve support consistency."
     , "Troubleshot hardware and software issues across organizational and personal machines, closing tickets efficiently."
@@ -15,7 +27,7 @@
     "role": "Database Editor",
     "organisation": "Physics & Astronomy Department | University of Kansas",
     "startDate": "Jul, 2025",
-    "endDate": "Present",
+    "endDate": "Dec, 2025",
     "experiences": 
     [
     "Maintained and updated graduate program databases in FileMaker Pro to keep student records accurate and consistent.", 

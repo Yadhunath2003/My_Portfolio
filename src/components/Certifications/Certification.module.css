@@ -89,7 +89,7 @@
 }
 
 .iconWrap {
-  background: rgba(59,130,246,.12);
+  background: rgba(109, 158, 164, 0.182);
   padding: 12px;
   border-radius: 12px;
   color: var(--color-primary);
@@ -162,6 +162,12 @@
   display: flex;
   align-items: flex-start;
   gap: 14px;
+}
+
+.iconImg {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .awardIcon {

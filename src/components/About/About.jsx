@@ -107,13 +107,6 @@ export const About = () => {
                 </span>
                 <span>yadhunath2003@gmail.com</span>
               </div>
-              <div className={styles.chip}>
-                <span className={styles.chipIcon} aria-hidden="true">
-                  {/* phone */}
-                  <svg viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8c1.3 2.6 3.4 4.7 6 6l2-2c.3-.3.8-.4 1.2-.2 1.3.5 2.7.8 4.2.8.7 0 1.2.5 1.2 1.2V20c0 .7-.5 1.2-1.2 1.2C10.8 21.2 2.8 13.2 2.8 3.2 2.8 2.5 3.3 2 4 2h3.5c.7 0 1.2.5 1.2 1.2 0 1.5.3 2.9.8 4.2.1.4 0 .9-.3 1.2l-1.6 1.6z"/></svg>
-                </span>
-                <span>+1 (913) 375-3250</span>
-              </div>
             </div>
           </div>
         </div>

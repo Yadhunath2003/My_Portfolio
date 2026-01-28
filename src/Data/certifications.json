@@ -4,9 +4,9 @@
       "issuer": "Google",
       "description": "Showcases advanced proficiency in Data Analysis, including Data Cleaning, Preprocessing, SQL Query Optimization, and creating impactful Data Visualizations to derive actionable insights.",
       "issued": "August 2025",
-      "link": "https://www.coursera.org/account/accomplishments/specialization/certificate/BFGNSSKMCD43",
+      "pdf": "googleAnalytics",
       "accent": "Red",
-      "icon": "shield"
+      "icon": "google.svg"
     },
     {
       "title": "AWS Certified Developer Associate",
@@ -15,16 +15,16 @@
       "issued": "Oct 2025",
       "link": "#",
       "accent": "Indigo",
-      "icon": "aws"
+      "icon": "aws-svgrepo-com.svg"
     },
     {
       "title": "IBM SQL, ETL Processing, and Data Warehousing",
       "issuer": "IBM",
       "description": "Proficiency in SQL queries, ETL processes, and data warehousing concepts for effective data management and analysis.",
       "issued": "Sept 2025",
-      "link": "https://www.coursera.org/account/accomplishments/certificate/C7KWLM6ATKDK",
+      "pdf": "ibmDataEng",
       "accent": "Blue",
-      "icon": "user-secret"
+      "icon": "ibm.svg"
     }
   ]
   

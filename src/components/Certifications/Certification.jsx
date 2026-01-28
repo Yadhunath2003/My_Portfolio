@@ -2,18 +2,17 @@ import React from "react";
 import styles from "./Certification.module.css";
 import certs from "../../Data/certifications.json";
 import awards from "../../Data/awards.json";
+import googleAnalyticsPDF from "../../../assets/Google_cert.pdf";
+import ibmPDF from "../../../assets/IBM-Cert.pdf";
+
+const pdfMap = {
+  googleAnalytics: googleAnalyticsPDF,
+  ibmDataEng: ibmPDF
+};
 
 const Icon = ({ name }) => {
   // tiny inline icon set (no external libs)
   switch (name) {
-    case "shield":
-      return <svg viewBox="0 0 24 24"><path fill="Red" d="M3 20h3v-4H3zM8 20h3v-8H8zM13 20h3v-12h-3zM18 20h3v-16h-3z"/></svg>;
-    case "aws":
-      return <svg viewBox="0 0 24 24"><path fill="#8b5cf6" d="M19.35 10.04C18.67 6.59 15.64 4 12 4 8.69 4 5.86 6.64 5.36 9.86 3.35 10.28 2 11.99 2 14c0 2.21 1.79 4 4 4h12c1.66 0 3-1.34 3-3 0-1.64-1.27-2.96-2.89-2.96-.22 0-.43.02-.64.06z"/></svg>;
-      //return <svg viewBox="0 0 24 24"><path fill="currentColor" d="M8.1 9.5c.2-1.2 1.4-2.2 3-2.2 2 0 3.2 1.5 3.2 3.6v5.1h-1.8V11c0-1.2-.6-2-1.7-2s-1.9.9-1.9 2.1v5h-1.8v-6.1zm12.1 7.7c-1.7 1.2-4.2 2.3-6.2 2.8-2.6.7-5.2.9-7.9.6-2.7-.3-5.6-1.1-7.6-2.1-.3-.2-.4-.5-.2-.8.2-.3.6-.4.9-.2 1.9 1 4.7 1.8 7.3 2.1 2.6.3 5.1.1 7.6-.6 1.9-.5 4.3-1.5 5.9-2.6.3-.2.7-.1.9.2.2.3.1.6-.1.8zM19.8 14c-1.4 1-3.6 2-5.4 2.5-.3.1-.6-.1-.7-.4-.1-.3.1-.6.4-.7 1.7-.5 3.8-1.4 5.1-2.3.3-.2.7-.1.8.2.1.3 0 .6-.2.7z"/></svg>;
-    case "user-secret":
-      //return <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a4 4 0 014 4v1h-8V6a4 4 0 014-4zm-6 8h12l-1 10H7L6 10zm2 2l.5 6h7l.5-6H8z"/></svg>;
-      return <svg viewBox="0 0 24 24"><path fill="currentColor" d="M6 4h12v3H6z M10 7h4v10h-4z M6 17h12v3H6z"/></svg>;
     case "lock":
       return <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z"/></svg>;
     case "trophy":
@@ -54,7 +53,11 @@ export const Certification = () => {
               <div className={styles.certBody}>
                 <div className={styles.iconRow}>
                   <div className={styles.iconWrap}>
-                    <Icon name={c.icon} />
+                  <img
+                    src={`/assets/${c.icon}`}
+                    alt={`${c.title} icon`}
+                    className={styles.iconImg}
+                  />
                   </div>
                   <div>
                     <h3 className={styles.certTitle}>{c.title}</h3>
@@ -66,14 +69,14 @@ export const Certification = () => {
 
                 <div className={styles.certFooter}>
                   <span className={styles.issued}>Issued: {c.issued}</span>
-                  {c.link && (
+                  {c.pdf && pdfMap[c.pdf] && (
                     <a
                       className={styles.credLink}
-                      href={c.link}
+                      href={pdfMap[c.pdf]}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      View Credential
+                      View Certificate
                     </a>
                   )}
                 </div>
