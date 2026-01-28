@@ -17,7 +17,7 @@ export const Hero = () => {
           and analytics, where I’ve worked on projects that combine backend systems, cloud platforms, and data pipelines 
           to deliver real-world impact.
       </p>
-        <a href="mailto:yadhunath2003@email.com" className={styles.contactBtn}>
+        <a href="mailto:yadhunath2003@email.com" className={`${styles.contactBtn} ${styles.reveal} ${styles.delay3}`}>
           Contact Me
         </a>
       </div>
