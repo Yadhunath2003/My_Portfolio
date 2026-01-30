@@ -7,6 +7,16 @@
   color: var(--color-text);
   font-family: var(--font-inter);
 }
+.sectionHidden {
+  opacity: 0;
+  transform: translateY(24px);
+  pointer-events: none;
+}
+.sectionVisible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
 
 /* max-w-7xl + responsive padding */
 .container {
@@ -199,4 +209,33 @@
 @media (max-width: 830px) {
   .photoBadge { left: -16px; bottom: -16px; }
   .pointsGrid { grid-template-columns: 1fr; }
+}
+
+/* =========================
+   Scroll Reveal (About only)
+   ========================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+}
+
+.active {
+  animation: revealUp 1.6s ease forwards;
+}
+
+@keyframes revealUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.delay1 {
+  animation-delay: 0.4s;
+}
+.delay2 {
+  animation-delay: 0.6s;
+}
+.delay3 {
+  animation-delay: 0.9s;
 }
