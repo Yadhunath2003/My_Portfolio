@@ -6,7 +6,7 @@
       "issued": "August 2025",
       "pdf": "googleAnalytics",
       "accent": "Red",
-      "icon": "googleIcon"
+      "icon": "google"
     },
     {
       "title": "AWS Certified Developer Associate",
@@ -15,7 +15,7 @@
       "issued": "Oct 2025",
       "link": "#",
       "accent": "Indigo",
-      "icon": "awsIcon"
+      "icon": "aws"
     },
     {
       "title": "IBM SQL, ETL Processing, and Data Warehousing",
@@ -24,7 +24,7 @@
       "issued": "Sept 2025",
       "pdf": "ibmDataEng",
       "accent": "Blue",
-      "icon": "ibmIcon"
+      "icon": "ibm"
     }
   ]
   

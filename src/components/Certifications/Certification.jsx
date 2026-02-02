@@ -62,11 +62,7 @@ export const Certification = () => {
               <div className={styles.certBody}>
                 <div className={styles.iconRow}>
                   <div className={styles.iconWrap}>
-                  <img
-                    src={`/assets/${c.icon}`}
-                    alt={`${c.title} icon`}
-                    className={styles.iconImg}
-                  />
+                  <Icon name={c.icon} />
                   </div>
                   <div>
                     <h3 className={styles.certTitle}>{c.title}</h3>

@@ -96,7 +96,12 @@
   display: grid;
   place-items: center;
 }
-.iconWrap svg { width: 24px; height: 24px; }
+
+.iconWrap img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
 
 .certTitle {
   margin: 0 0 2px;
