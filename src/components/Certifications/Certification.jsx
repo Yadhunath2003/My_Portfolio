@@ -4,7 +4,9 @@ import certs from "../../Data/certifications.json";
 import awards from "../../Data/awards.json";
 import googleAnalyticsPDF from "../../../assets/Google_cert.pdf";
 import ibmPDF from "../../../assets/IBM-Cert.pdf";
-import { getImageUrl } from "../../utils";
+import googleIcon from "../../../assets/google.svg";
+import awsIcon from "../../../assets/aws-svgrepo-com.svg";
+import ibmIcon from "../../../assets/ibm.svg";
 
 const pdfMap = {
   googleAnalytics: googleAnalyticsPDF,
@@ -12,8 +14,14 @@ const pdfMap = {
 };
 
 const Icon = ({ name }) => {
-  // tiny inline icon set (no external libs)
   switch (name) {
+    case "google":
+      return <img src={googleIcon} alt="Google" />;
+    case "aws":
+      return <img src={awsIcon} alt="AWS" />;
+    case "ibm":
+      return <img src={ibmIcon} alt="IBM" />;
+
     case "lock":
       return <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 1a5 5 0 00-5 5v3H6a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2v-8a2 2 0 00-2-2h-1V6a5 5 0 00-5-5zm-3 8V6a3 3 0 116 0v3H9z"/></svg>;
     case "trophy":
@@ -55,7 +63,7 @@ export const Certification = () => {
                 <div className={styles.iconRow}>
                   <div className={styles.iconWrap}>
                   <img
-                    src={getImageUrl(c.icon)}
+                    src={`/assets/${c.icon}`}
                     alt={`${c.title} icon`}
                     className={styles.iconImg}
                   />
