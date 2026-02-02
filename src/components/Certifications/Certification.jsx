@@ -39,7 +39,7 @@ export const Certification = () => {
           </h2>
           <div className={styles.underline} />
           <p className={styles.subtitle}>
-            Professional certifications that validate my expertise in cybersecurity and development
+            Professional certifications that validate my expertise in Data Science and development
           </p>
         </div>
 

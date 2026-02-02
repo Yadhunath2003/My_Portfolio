@@ -12,8 +12,8 @@
     "imageSrc": "cyclistic.png",
     "description": "A Case Study of more than 1 million bike-share rides to improve membership and grow the business.",
     "skills": ["R", "PostgreSQL", "Tableau"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://www.kaggle.com/code/yadhunath/cyclistic-dataset",
+    "source": "https://www.kaggle.com/code/yadhunath/cyclistic-dataset"
   },
   {
     "title": "Note-taking",

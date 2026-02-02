@@ -15,7 +15,7 @@ export const Projects = () => {
           </h2>
           <div className={styles.underline} />
           <p className={styles.subtitle}>
-            Here are some of my projects that showcase my skills in development and cybersecurity.
+            Here are some of my projects that showcase my skills in Web Development and Data Science.
           </p>
         </div>
 

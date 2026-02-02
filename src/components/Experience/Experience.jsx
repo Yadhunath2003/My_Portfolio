@@ -47,7 +47,7 @@ export const Experience = () => {
                 <div className={styles.historyHeader}>
                   <h4 className={styles.role}>{item.role}</h4>
                   <span className={styles.datePill}>
-                    {item.startDate} – {item.endDate}
+                    {item.startDate} {item.endDate}
                   </span>
                 </div>
 

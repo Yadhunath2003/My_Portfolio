@@ -1,15 +1,15 @@
 [
     {
-      "title": "Honors Roll for Academic Excellence",
+      "title": "Honors Roll for Academic Excellence (Associates)",
       "org": "Johnson County Community College",
       "description": "Awarded for achieving a GPA of 3.5 or higher for 2 semesters, while completing 30+ credit hours.",
       "accent": "Yellow",
       "icon": "trophy"
     },
     {
-      "title": "University Excellence Award",
-      "org": "School of Engineering | University of Kansas",
-      "description": "Awarded for achieving a GPA of 3.75 or higher in Spring 2025 semester.",
+      "title": "University Excellence Award (Undergraduate)",
+      "org": "KU School of Engineering",
+      "description": "Awarded for achieving a GPA of 3.75 or higher in Spring & Fall 2025 semesters.",
       "accent": "Blue",
       "icon": "award"
     },
