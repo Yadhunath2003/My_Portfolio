@@ -4,6 +4,7 @@ import certs from "../../Data/certifications.json";
 import awards from "../../Data/awards.json";
 import googleAnalyticsPDF from "../../../assets/Google_cert.pdf";
 import ibmPDF from "../../../assets/IBM-Cert.pdf";
+import { getImageUrl } from "../../utils";
 
 const pdfMap = {
   googleAnalytics: googleAnalyticsPDF,
@@ -54,7 +55,7 @@ export const Certification = () => {
                 <div className={styles.iconRow}>
                   <div className={styles.iconWrap}>
                   <img
-                    src={`/assets/${c.icon}`}
+                    src={getImageUrl(c.icon)}
                     alt={`${c.title} icon`}
                     className={styles.iconImg}
                   />
