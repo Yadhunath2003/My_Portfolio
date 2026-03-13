@@ -74,8 +74,11 @@
 
 .photoCard {
   position: relative;
-  width: 256px;  /* w-64 */
-  height: 320px; /* h-80 */
+  width: 300px;  /* w-64 */
+  height: 400px; /* h-80 */
+  image-rendering: -webkit-optimize-contrast;  /* Chrome/Safari */
+  image-rendering: crisp-edges;                /* Firefox */
+  -webkit-font-smoothing: antialiased;
 }
 
 .photo {

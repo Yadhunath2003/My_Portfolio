@@ -16,11 +16,19 @@
     "source": "https://www.kaggle.com/code/yadhunath/cyclistic-dataset"
   },
   {
-    "title": "Note-taking",
-    "imageSrc": "Notes-Logo.jpeg",
-    "description": "A personal web app for registering, organizing, and tracking daily priorities and important notes.",
-    "skills": ["Django", "React", "NeonDB", "Choreo"],
-    "demo": "https://note-taking-19il.onrender.com",
-    "source": "https://github.com/Yadhunath2003/Note-Taking.git"
+    "title": "Register your Rep | Group Project",
+    "imageSrc": "ryr.png",
+    "description": "An AI powered web app to create personalized workout plan and keep a track of it.",
+    "skills": ["Next.js", "React", "MongoDB", "Vercel", "Gemini API"],
+    "demo": "https://register-ur-rep.vercel.app/",
+    "source": "https://github.com/AyaanLakhani/RegisterYourRep"
+  },
+  {
+    "title": "BlockBadge | Hackathon Project",
+    "imageSrc": "bbadge.png",
+    "description": "A tamper-proof credentialing system using blockchain technology to verify and authenticate educational and professional achievements.",
+    "skills": ["Node.js", "React", "Pinata", "XRP Ledger", "Vercel"],
+    "demo": "https://blockathon.vercel.app/",
+    "source": "https://github.com/v4ms12004/BlockBadge"
   }
 ]
